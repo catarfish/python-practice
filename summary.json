@@ -1,0 +1,20 @@
+[
+  {
+    "site": "Carmel",
+    "max_flow": 300,
+    "min_flow": 300,
+    "mean_flow": 300.0
+  },
+  {
+    "site": "Mendocino",
+    "max_flow": 400,
+    "min_flow": 200,
+    "mean_flow": 300.0
+  },
+  {
+    "site": "Monterey",
+    "max_flow": 500,
+    "min_flow": 100,
+    "mean_flow": 300.0
+  }
+]
