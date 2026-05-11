@@ -41,5 +41,8 @@ def main():
     )
     fig3.show()
 
+    # other options: facet_col, facet_row
+    # fig.update_layout() and fig.update_traces() are equivalent of theme()
+
 if __name__ == "__main__":
     main()

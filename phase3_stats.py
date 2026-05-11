@@ -11,6 +11,7 @@ def main():
     })
 
     # summary statistics — like summary() in R
+    df["year"] = df["year"].astype(str)
     print(df.describe())
     print()
 
@@ -25,8 +26,6 @@ def main():
     # correlation — like cor() in R
     print("correlation between flow and temp:")
     print(df[["flow_m3s", "temp_c"]].corr())
-
-   
 
     # split flow by year
     flow_2021 = df[df["year"] == 2021]["flow_m3s"]
